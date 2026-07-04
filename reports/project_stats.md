@@ -1,14 +1,14 @@
 ===============================================================================
 File        : project_stats.md
 Project     : Government Job Finder
-Generated   : 2026-07-04 23:17:04
+Generated   : 2026-07-04 23:22:03
 Python      : 3.13+
 ===============================================================================
 
 # Project Statistics
 
 **Project:** Government Job Finder
-**Generated:** 2026-07-04 23:17:04
+**Generated:** 2026-07-04 23:22:03
 
 ## Overview
 
@@ -36,12 +36,12 @@ Python      : 3.13+
 | File | Lines |
 |------|-------|
 | `reports\scaffold.py` | 22,964 |
-| `reports\dependency_report.md` | 4,146 |
-| `requirements.txt` | 3,822 |
 | `reports\ARCHITECTURE.txt` | 3,813 |
 | `reports\scaffold_report.md` | 2,355 |
-| `reports\project_stats.md` | 1,707 |
+| `reports\project_stats.md` | 1,719 |
+| `reports\dependency_report.md` | 1,379 |
 | `README.md` | 364 |
+| `requirements.txt` | 318 |
 | `reports\scaffold.py` | 205 |
 | `.env` | 154 |
 | `app.py` | 0 |
@@ -51,12 +51,12 @@ Python      : 3.13+
 | File | Size |
 |------|------|
 | `reports\scaffold.py` | 22.43 KB |
-| `reports\dependency_report.md` | 4.05 KB |
-| `requirements.txt` | 3.73 KB |
 | `reports\ARCHITECTURE.txt` | 3.72 KB |
 | `reports\scaffold_report.md` | 2.30 KB |
-| `reports\project_stats.md` | 1.67 KB |
+| `reports\project_stats.md` | 1.68 KB |
+| `reports\dependency_report.md` | 1.35 KB |
 | `README.md` | 364 B |
+| `requirements.txt` | 318 B |
 | `reports\scaffold.py` | 205 B |
 | `.env` | 154 B |
 | `app.py` | 0 B |
