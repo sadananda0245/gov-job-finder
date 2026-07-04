@@ -42,3 +42,8 @@ exports/
 
 # Temporary
 *.tmp
+.coverage
+
+htmlcov/
+
+*.sqlite3
