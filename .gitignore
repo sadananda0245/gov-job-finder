@@ -1,0 +1,44 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Flask
+instance/
+
+# Environment
+.env
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# VS Code
+.vscode/
+
+# Pytest
+.pytest_cache/
+
+# Migrations cache
+**/__pycache__/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Exports
+exports/
+
+# Temporary
+*.tmp
