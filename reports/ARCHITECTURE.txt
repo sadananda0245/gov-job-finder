@@ -1,20 +1,21 @@
 ===============================================================================
 File        : ARCHITECTURE.txt
 Project     : Government Job Finder
-Generated   : 2026-07-04 23:22:03
+Generated   : 2026-07-04 18:07:35
 Python      : 3.13+
 ===============================================================================
 
 Project Structure
 =================
 
-gov_job_finder/
+gov-job-finder/
 ├── app/
 │   ├── admin/
 │   │   └── __init__.py
 │   ├── auth/
 │   │   └── __init__.py
 │   ├── core/
+│   │   ├── __init__.py
 │   │   ├── config.py
 │   │   ├── constants.py
 │   │   ├── exceptions.py
@@ -29,23 +30,6 @@ gov_job_finder/
 │   │   └── home.py
 │   ├── services/
 │   │   └── __init__.py
-│   ├── static/
-│   │   ├── css/
-│   │   ├── fonts/
-│   │   ├── icons/
-│   │   ├── img/
-│   │   ├── js/
-│   │   ├── static/
-│   │   └── vendors/
-│   ├── templates/
-│   │   ├── auth/
-│   │   ├── base/
-│   │   ├── components/
-│   │   ├── dashboard/
-│   │   ├── errors/
-│   │   ├── layouts/
-│   │   ├── profile/
-│   │   └── templates/
 │   ├── utils/
 │   │   └── __init__.py
 │   └── __init__.py
@@ -56,32 +40,26 @@ gov_job_finder/
 │   ├── HLD.md
 │   ├── LLD.md
 │   ├── ROADMAP.md
-│   └── SRS.md
-├── exports/
-├── instance/
-├── logs/
-│   ├── app.log
-│   ├── error.log
-│   └── scheduler.log
-├── migrations/
+│   ├── SRS.md
+│   └── __init__.py
 ├── reports/
 │   ├── ARCHITECTURE.txt
 │   ├── dependency_report.md
 │   ├── project_stats.md
 │   ├── scaffold.py
 │   └── scaffold_report.md
-├── scheduler/
 ├── scripts/
+│   ├── __init__.py
 │   ├── backup_db.py
 │   ├── reset_db.py
 │   └── seed_db.py
 ├── tests/
-│   ├── functional/
-│   ├── integration/
-│   ├── tests/
 │   ├── unit/
+│   │   ├── __init__.py
+│   │   └── test_app.py
+│   ├── __init__.py
 │   └── conftest.py
-├── .env
+├── .env.example
 ├── CHANGELOG.md
 ├── LICENSE
 ├── README.md
@@ -92,63 +70,6 @@ gov_job_finder/
 
 Summary
 -------
-Total directories : 39
-Total files       : 41
-Python files      : 22
-
-Empty directories : 23
-  - app\static\css
-  - app\static\fonts
-  - app\static\icons
-  - app\static\img
-  - app\static\js
-  - app\static\static
-  - app\static\vendors
-  - app\templates\auth
-  - app\templates\base
-  - app\templates\components
-  - app\templates\dashboard
-  - app\templates\errors
-  - app\templates\layouts
-  - app\templates\profile
-  - app\templates\templates
-  - exports
-  - instance
-  - migrations
-  - scheduler
-  - tests\functional
-  - tests\integration
-  - tests\tests
-  - tests\unit
-
-Missing __init__.py: 30
-  - app\core
-  - app\static
-  - app\static\css
-  - app\static\fonts
-  - app\static\icons
-  - app\static\img
-  - app\static\js
-  - app\static\static
-  - app\static\vendors
-  - app\templates
-  - app\templates\auth
-  - app\templates\base
-  - app\templates\components
-  - app\templates\dashboard
-  - app\templates\errors
-  - app\templates\layouts
-  - app\templates\profile
-  - app\templates\templates
-  - docs
-  - exports
-  - instance
-  - logs
-  - migrations
-  - scheduler
-  - scripts
-  - tests
-  - tests\functional
-  - tests\integration
-  - tests\tests
-  - tests\unit
+Total directories : 14
+Total files       : 44
+Python files      : 28

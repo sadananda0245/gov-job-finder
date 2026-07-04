@@ -1,0 +1,3 @@
+# Force dependency manifests to render as text in code review even when the
+# base version was committed with UTF-16/NUL bytes.
+requirements.txt text eol=lf diff
