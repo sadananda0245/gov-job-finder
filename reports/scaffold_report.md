@@ -1,40 +1,96 @@
 ===============================================================================
 File        : scaffold_report.md
 Project     : Government Job Finder
-Generated   : 2026-07-04 17:40:01
+Generated   : 2026-07-04 23:17:04
 Python      : 3.13+
 ===============================================================================
 
 # Scaffold Analysis Report
 
 **Project:** Government Job Finder
-**Generated:** 2026-07-04 17:40:01
+**Generated:** 2026-07-04 23:17:04
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total Directories | 13 |
-| Total Files | 37 |
+| Total Directories | 39 |
+| Total Files | 41 |
 | Python Files | 22 |
-| Empty Directories | 0 |
-| Missing __init__.py | 4 |
+| Empty Directories | 23 |
+| Missing __init__.py | 30 |
 
 ## Warnings
 
-- ⚠️ Found 4 directory(ies) missing __init__.py
+- ⚠️ Found 23 empty directory(s)
+- ⚠️ Found 30 directory(ies) missing __init__.py
 
 ## Recommendations
 
+- 💡 Consider removing empty directories or adding a README.md if intentional
 - 💡 Add __init__.py files to make directories proper Python packages
+
+### Empty Directories
+
+```
+  app\static\css
+  app\static\fonts
+  app\static\icons
+  app\static\img
+  app\static\js
+  app\static\static
+  app\static\vendors
+  app\templates\auth
+  app\templates\base
+  app\templates\components
+  app\templates\dashboard
+  app\templates\errors
+  app\templates\layouts
+  app\templates\profile
+  app\templates\templates
+  exports
+  instance
+  migrations
+  scheduler
+  tests\functional
+  tests\integration
+  tests\tests
+  tests\unit
+```
 
 ### Missing __init__.py Files
 
 ```
-  app/core/__init__.py
+  app\core/__init__.py
+  app\static/__init__.py
+  app\static\css/__init__.py
+  app\static\fonts/__init__.py
+  app\static\icons/__init__.py
+  app\static\img/__init__.py
+  app\static\js/__init__.py
+  app\static\static/__init__.py
+  app\static\vendors/__init__.py
+  app\templates/__init__.py
+  app\templates\auth/__init__.py
+  app\templates\base/__init__.py
+  app\templates\components/__init__.py
+  app\templates\dashboard/__init__.py
+  app\templates\errors/__init__.py
+  app\templates\layouts/__init__.py
+  app\templates\profile/__init__.py
+  app\templates\templates/__init__.py
   docs/__init__.py
+  exports/__init__.py
+  instance/__init__.py
+  logs/__init__.py
+  migrations/__init__.py
+  scheduler/__init__.py
   scripts/__init__.py
   tests/__init__.py
+  tests\functional/__init__.py
+  tests\integration/__init__.py
+  tests\tests/__init__.py
+  tests\unit/__init__.py
 ```
 
 ---

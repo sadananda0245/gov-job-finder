@@ -1,15 +1,15 @@
 ===============================================================================
 File        : dependency_report.md
 Project     : Government Job Finder
-Generated   : 2026-07-04 17:40:01
+Generated   : 2026-07-04 23:17:04
 Python      : 3.13+
 ===============================================================================
 
 # Dependency Report
 
 **Project:** Government Job Finder
-**Generated:** 2026-07-04 17:40:01
-**Source:** /workspace/project/gov-job-finder/requirements.txt
+**Generated:** 2026-07-04 23:17:04
+**Source:** D:\Programming\Visual Studio\Phython\gov_job_finder\requirements.txt
 
 ## Summary
 

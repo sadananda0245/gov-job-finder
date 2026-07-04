@@ -1,20 +1,20 @@
 ===============================================================================
 File        : project_stats.md
 Project     : Government Job Finder
-Generated   : 2026-07-04 17:40:01
+Generated   : 2026-07-04 23:17:04
 Python      : 3.13+
 ===============================================================================
 
 # Project Statistics
 
 **Project:** Government Job Finder
-**Generated:** 2026-07-04 17:40:01
+**Generated:** 2026-07-04 23:17:04
 
 ## Overview
 
 | Metric | Count |
 |--------|-------|
-| Total Files | 37 |
+| Total Files | 41 |
 | Code Files | 22 |
 | Documentation Files | 14 |
 | Config Files | 0 |
@@ -27,38 +27,39 @@ Python      : 3.13+
 |-----------|-------|
 | `.py` | 22 |
 | `.md` | 12 |
+| `.log` | 3 |
+| `no extension` | 2 |
 | `.txt` | 2 |
-| `no extension` | 1 |
 
 ## Largest Files (by Lines)
 
 | File | Lines |
 |------|-------|
-| `reports/scaffold.py` | 22,300 |
-| `reports/dependency_report.md` | 3,952 |
+| `reports\scaffold.py` | 22,964 |
+| `reports\dependency_report.md` | 4,146 |
 | `requirements.txt` | 3,822 |
-| `reports/ARCHITECTURE.txt` | 1,841 |
-| `reports/project_stats.md` | 1,596 |
-| `reports/scaffold_report.md` | 892 |
-| `README.md` | 352 |
-| `reports/scaffold.py` | 205 |
-| `LICENSE` | 0 |
-| `config.py` | 0 |
+| `reports\ARCHITECTURE.txt` | 3,813 |
+| `reports\scaffold_report.md` | 2,355 |
+| `reports\project_stats.md` | 1,707 |
+| `README.md` | 364 |
+| `reports\scaffold.py` | 205 |
+| `.env` | 154 |
+| `app.py` | 0 |
 
 ## Largest Files (by Size)
 
 | File | Size |
 |------|------|
-| `reports/scaffold.py` | 21.78 KB |
-| `reports/dependency_report.md` | 3.86 KB |
+| `reports\scaffold.py` | 22.43 KB |
+| `reports\dependency_report.md` | 4.05 KB |
 | `requirements.txt` | 3.73 KB |
-| `reports/ARCHITECTURE.txt` | 1.80 KB |
-| `reports/project_stats.md` | 1.56 KB |
-| `reports/scaffold_report.md` | 892 B |
-| `README.md` | 352 B |
-| `reports/scaffold.py` | 205 B |
-| `LICENSE` | 0 B |
-| `config.py` | 0 B |
+| `reports\ARCHITECTURE.txt` | 3.72 KB |
+| `reports\scaffold_report.md` | 2.30 KB |
+| `reports\project_stats.md` | 1.67 KB |
+| `README.md` | 364 B |
+| `reports\scaffold.py` | 205 B |
+| `.env` | 154 B |
+| `app.py` | 0 B |
 
 ## Code Quality Metrics
 
