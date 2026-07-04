@@ -1,0 +1,73 @@
+===============================================================================
+File        : ARCHITECTURE.txt
+Project     : Government Job Finder
+Generated   : 2026-07-04 17:40:01
+Python      : 3.13+
+===============================================================================
+
+Project Structure
+=================
+
+gov-job-finder/
+├── app/
+│   ├── admin/
+│   │   └── __init__.py
+│   ├── auth/
+│   │   └── __init__.py
+│   ├── core/
+│   │   ├── config.py
+│   │   ├── constants.py
+│   │   ├── exceptions.py
+│   │   ├── logging.py
+│   │   └── security.py
+│   ├── models/
+│   │   └── __init__.py
+│   ├── repositories/
+│   │   └── __init__.py
+│   ├── routes/
+│   │   ├── __init__.py
+│   │   └── home.py
+│   ├── services/
+│   │   └── __init__.py
+│   ├── utils/
+│   │   └── __init__.py
+│   └── __init__.py
+├── docs/
+│   ├── API.md
+│   ├── CONTRIBUTING.md
+│   ├── DATABASE.md
+│   ├── HLD.md
+│   ├── LLD.md
+│   ├── ROADMAP.md
+│   └── SRS.md
+├── reports/
+│   ├── ARCHITECTURE.txt
+│   ├── dependency_report.md
+│   ├── project_stats.md
+│   ├── scaffold.py
+│   └── scaffold_report.md
+├── scripts/
+│   ├── backup_db.py
+│   ├── reset_db.py
+│   └── seed_db.py
+├── tests/
+│   └── conftest.py
+├── CHANGELOG.md
+├── LICENSE
+├── README.md
+├── app.py
+├── config.py
+├── extensions.py
+└── requirements.txt
+
+Summary
+-------
+Total directories : 13
+Total files       : 37
+Python files      : 22
+
+Missing __init__.py: 4
+  - app/core
+  - docs
+  - scripts
+  - tests
